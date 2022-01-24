@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅방 - 파이브톡</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>연결됨</span>
+        <i class="fas fa-wifi"></i>
+        <!--와이파이 아이콘-->
+      </div>
+      <div class="status-bar__column">
+        <span>09:00</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>15%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--배터리 아이콘,번개 아이콘-->
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">오유택</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">2022년 1월 22일 토요일</div>
+
+      <div class="message-row">
+        <img src="/D:/vscode/kokoa-clone/screenshots/beauty15.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">오유택</span>
+          <div class="message__info">
+            <span class="message__bubble">안녕!</span>
+            <span class="message__time">07:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">안녕! 반가워~</span>
+            <span class="message__time">07:42</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column"><i class="far fa-plus-square fa-2x"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요." />
+        <i class="far fa-grin fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요 ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/537b61becd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

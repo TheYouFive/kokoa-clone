@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>파이브톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>연결됨</span>
+        <i class="fas fa-wifi"></i>
+        <!--와이파이 아이콘-->
+      </div>
+      <div class="status-bar__column">
+        <span>09:00</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>15%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--배터리 아이콘,번개 아이콘-->
+      </div>
+    </div>
+
+    <header class="login-header">
+      <h1 class="login-header__title">파이브톡에 오신 것을 환영합니다.</h1>
+      <p class="login-header__text">
+        파이브톡 계정을 가지고 있다면 이메일이나 전화번호로 로그인하세요.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        class="email-password"
+        name="username"
+        type="text"
+        placeholder="이메일 혹은 전화번호"
+      />
+      <input
+        class="email-password"
+        name="password"
+        type="password"
+        placeholder="비밀번호"
+      />
+      <input class="login-button" type="submit" value="로그인" />
+      <a class="account-find" href="#">계정 또는 비밀번호 찾기</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요 ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/537b61becd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

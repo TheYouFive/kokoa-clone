@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅 - 파이브톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>연결됨</span>
+        <i class="fas fa-wifi"></i>
+        <!--와이파이 아이콘-->
+      </div>
+      <div class="status-bar__column">
+        <span>09:00</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>15%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!--배터리 아이콘,번개 아이콘-->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="far fa-comment-dots fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-2x"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chatroom.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="./screenshots/beauty15.jpg"
+              class="user-component_avatar"
+            />
+            <div class="user-component__text user-component__text2">
+              <h4 class="user-component__title">오유택</h4>
+              <h5 class="user-component__subtitle">안녕!</h5>
+            </div>
+          </div>
+          <div class="user-component__column user-component__badgetime">
+            <span class="user-component__time">07:30</span>
+            <div class="badge user-component__badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>화면이 너무 커요 ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/537b61becd.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
