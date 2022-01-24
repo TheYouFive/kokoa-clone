@@ -44,6 +44,7 @@
 }
 
 .user-component__music {
+  width: 30%;
   position: absolute;
   right: 0;
   margin-right: 20px;
