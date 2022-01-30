@@ -46,13 +46,20 @@
 .user-component__music {
   width: 30%;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 0;
   margin-right: 20px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   border-color: rgb(24, 187, 24);
+}
+
+.user-component__music i {
+  margin-left: 2px;
 }
 
 .user-component__title-not-bold {
