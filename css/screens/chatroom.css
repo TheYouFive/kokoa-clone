@@ -124,7 +124,6 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  color: black;
   top: 2.7px;
   right: -19px;
   cursor: pointer;
@@ -140,6 +139,7 @@
 }
 
 .reply__column button {
+  color: black;
   background-color: var(--yellow);
   border: none;
   border-radius: 50%;
