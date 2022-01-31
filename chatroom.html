@@ -4,9 +4,31 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.8, user-scalable=no, maximum-scale=0.8"
+    />
     <title>채팅방 - 파이브톡</title>
   </head>
+
+  <style>
+    main,
+    form {
+      animation: fadeIn 0.5s linear;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 3;
+        transform: none;
+      }
+    }
+  </style>
+
   <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
@@ -28,12 +50,12 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="javascript:history.back();">
+        <a href="chat.html">
           <i class="fas fa-angle-left fa-3x"></i>
         </a>
       </div>
       <div class="alt-header__column">
-        <h1 class="alt-header__title">오유택</h1>
+        <h1 class="alt-header__title">파이브</h1>
       </div>
       <div class="alt-header__column">
         <span><i class="fas fa-search fa-2x"></i></span>
@@ -45,9 +67,9 @@
       <div class="chat__timestamp">2022년 1월 22일 토요일</div>
 
       <div class="message-row">
-        <img src="./screenshots/me.jpg" />
+        <img src="./screenshots/V.png" />
         <div class="message-row__content">
-          <span class="message__author">오유택</span>
+          <span class="message__author">파이브</span>
           <div class="message__info">
             <span class="message__bubble">안녕!</span>
             <span class="message__time">07:30</span>

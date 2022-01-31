@@ -25,6 +25,10 @@
 }
 
 .open-chat__header span {
+  cursor: pointer;
+}
+
+.open-chat__header span {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -39,6 +43,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.open-post:hover {
+  box-shadow: 0em 3px 0.5em rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.open-post:active {
+  background-color: rgba(168, 168, 151, 0.3);
 }
 
 .open-post__title {
@@ -126,6 +141,10 @@
     color: white;
     transform: none;
   }
+}
+
+.open-post__heart-count i {
+  cursor: pointer;
 }
 
 .open-post__heart-count:hover i {

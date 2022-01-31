@@ -4,14 +4,31 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.8" />
-    <title>친구 - 파이브톡</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.8, user-scalable=no, maximum-scale=0.8"
+    />
+    <title>프로필 - 파이브톡</title>
   </head>
+
   <style>
     body {
-      background-color: #abc1d1;
+      overflow: hidden;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 3;
+        transform: none;
+      }
     }
   </style>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -33,7 +50,9 @@
 
     <header class="screen-header">
       <div class="screen-header__icons">
-        <span><i class="fas fa-times fa-3x"></i></span>
+        <span
+          ><a href="friends.html"><i class="fas fa-times fa-3x"></i></a
+        ></span>
       </div>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-2x"></i></span>
@@ -50,6 +69,25 @@
         <span>Jeff Bernat</span>
         <span><i class="fas fa-play-circle"></i></span>
       </div>
+
+      <div class="profile-screen__imagebox">
+        <div class="profile-screen-imagebox__image">
+          <img src="./screenshots/V.png" />
+        </div>
+        <div class="profile-screen-imagebox__text">
+          <span>파이브</span>
+        </div>
+      </div>
+
+      <ul class="profile-screen__nav">
+        <li><i class="fas fa-comment fa-2x"></i> <span>나와의 채팅</span></li>
+        <li>
+          <i class="fas fa-pencil-alt fa-2x"></i> <span>프로필 편집</span>
+        </li>
+        <li>
+          <i class="fas fa-quote-right fa-2x"></i> <span>파이브 스토리</span>
+        </li>
+      </ul>
     </main>
 
     <script

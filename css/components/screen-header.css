@@ -15,6 +15,7 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .main-screen {
