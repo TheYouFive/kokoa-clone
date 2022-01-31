@@ -110,6 +110,7 @@
 .reply i {
   opacity: 0.5;
   cursor: pointer;
+  color: black;
 }
 
 .reply .reply__column:first-child {
