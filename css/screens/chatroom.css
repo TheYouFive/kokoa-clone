@@ -103,11 +103,12 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.reply button {
+.reply > button {
   cursor: pointer;
+  color: black;
 }
 
-.reply i {
+.reply > i {
   opacity: 0.5;
   cursor: pointer;
   color: black;
