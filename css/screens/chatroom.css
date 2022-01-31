@@ -103,17 +103,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.reply > button {
-  cursor: pointer;
-  color: black;
-}
-
-.reply > i {
-  opacity: 0.5;
-  cursor: pointer;
-  color: black;
-}
-
 .reply .reply__column:first-child {
   width: 10%;
 }
@@ -135,12 +124,14 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  top: 2.5px;
+  top: 2.7px;
   right: -19px;
+  cursor: pointer;
 }
 
 .reply__column button i {
   opacity: 1;
+  color: black;
 }
 
 .reply__column:last-child > i {
