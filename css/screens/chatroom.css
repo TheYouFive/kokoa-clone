@@ -149,6 +149,7 @@
 
 .reply__column button > i {
   font-size: 18px;
+  color: black;
 }
 
 .reply .reply__column:first-child,
