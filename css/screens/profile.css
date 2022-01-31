@@ -77,11 +77,11 @@
 }
 
 .profile-screen__nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  top: 500px;
+  top: 695px;
   border-top: 1px solid black;
   padding: 30px 0;
 }
